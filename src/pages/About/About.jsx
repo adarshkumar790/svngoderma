@@ -82,7 +82,8 @@ function About() {
           <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
             <h2 className='mb-4 mb-lg-5'>Study with us</h2>
             <p className='w-150'>
-              Sanatan Vidya Niketan (Pvt) was established in 2012 and is managed by Rishikul Shaikshanik Sansthan. It is located in the rural area of Jamuary, Kanke, Ranchi district, Jharkhand. The school consists of Grades 1 to 8. It is a co-educational institution with an attached pre-primary section. The school is privately run and does not operate as a shift-school. English is the medium of instruction. The academic session starts in April.
+            SANATAN VIDHYA NIKETAN (PVT) was established in 2003 and it is managed by the Unrecognised. It is located in Urban area. It is located in BISHRAMPUR block of PALAMU district of Jharkhand. The school consists of Grades from 1 to 8. The school is Co-educational and it have an attached pre-primary section. The school is Private in nature and is not using school building as a shift-school. English is the medium of instructions in this school. 
+            This school is approachable by all weather road. In this school academic session starts in April.
             </p>
             <Link to="/contact">
               <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
@@ -98,7 +99,7 @@ function About() {
         <ChooseSection />
       </div>
 
-      <div className='container py-5'>
+      {/* <div className='container py-5'>
         <h2 className='text-center mb-5'>B: DOCUMENTS AND INFORMATION</h2>
         <table className='table table-striped'>
           <thead>
@@ -120,7 +121,7 @@ function About() {
             ))}
           </tbody>
         </table>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -38,8 +38,7 @@ function Home() {
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
                 <h2 className='text-center fw-semibold'>SANATAN VIDYA NIKETAN</h2>
-                <h3 className='text-center fw-semibold'>Sanata Vidya Niketan Godarma Rehla Palamu. 
-                Pin Code- 822124</h3>
+                <h3 className='text-center fw-semibold'>Sanata Vidya Niketan Godarma Rehla Palamu. Pin Code- 822124</h3>
                 <h2 className='text-center text-color-red fw-semibold'>Achieving Excellence Together</h2>
                 <h4 className='text-center fw-semibold'>Email:- sanatangoderma@gmail.com</h4>
                 <h4 className='text-center fw-semibold'>Mob:- 7678184625, 8092236165</h4>
@@ -89,8 +88,8 @@ function Home() {
                                 <Card className='h-100 shadow scale-hover-effect'>
                                     <Card.Img variant="top" src={blog.img} />
                                     <Card.Body className='p-md-5'>
-                                        <Card.Title>{blog.title}</Card.Title>
-                                        <Card.Text>{blog.description}</Card.Text>
+                                        {/* <Card.Title>{blog.title}</Card.Title> */}
+                                        {/* <Card.Text>{blog.description}</Card.Text> */}
                                     </Card.Body>
                                 </Card>
                             </Link>

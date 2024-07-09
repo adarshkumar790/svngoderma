@@ -118,7 +118,7 @@ const information = [
     {
         id: 4,
         title: 'COMPLETE ADDRESS WITH PIN CODE',
-        description: 'Sanatan Road, Jamuary, Kanke, Ranchi, Jharkhand - 834 006',
+        description: 'Sanata Vidya Niketan Godarma, Rehla, Palamu, Pin Code- 822124',
     },
     {
         id: 5,
@@ -128,7 +128,7 @@ const information = [
     {
         id: 6,
         title: 'SCHOOL EMAIL ID',
-        description: 'sanatanvidyan@gmail.com',
+        description: 'sanatangoderma@gmail.com',
     },
     {
         id: 7,
@@ -138,7 +138,7 @@ const information = [
     {
         id: 8,
         title: 'CONTACT DETAILS (LANDLINE/MOBILE)',
-        description: '',
+        description: '7678184625, 8092236165',
     },
 ]
 const documents = [
