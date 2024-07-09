@@ -31,7 +31,7 @@ function FaqAccordion() {
                 <Accordion.Item eventKey='3'>
                     <Accordion.Header>How long has your School been open ?</Accordion.Header>
                     <Accordion.Body>
-                       It has been 12 years since our School opened.
+                       It has been 21 years since our School opened.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='4'>
