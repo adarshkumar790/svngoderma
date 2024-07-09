@@ -1,0 +1,30 @@
+/* .about-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/about.webp);
+} */
+
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
+.about-page header {
+    background: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/disclosure.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: moveBackground 10s linear infinite;
+}
+.table {
+    font-size: 0.9rem; /* Adjust this value to set the desired font size */
+  }
+  
+  .table thead th {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+    /* text-align: center;  */
+  }
+  
+  .table tbody td {
+    /* text-align: center;  */
+  }
+  
