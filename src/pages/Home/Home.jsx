@@ -38,10 +38,11 @@ function Home() {
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
                 <h2 className='text-center fw-semibold'>SANATAN VIDYA NIKETAN</h2>
-                <h3 className='text-center fw-semibold'>SANATAN ROAD, JAMUARY, KANKE, RANCHI</h3>
+                <h3 className='text-center fw-semibold'>Sanata Vidya Niketan Godarma Rehla Palamu. 
+                Pin Code- 822124</h3>
                 <h2 className='text-center text-color-red fw-semibold'>Achieving Excellence Together</h2>
-                <h4 className='text-center fw-semibold'>Email:-sanatanvidyan@gmail.com</h4>
-                <h4 className='text-center fw-semibold'>Mob:-9576035071, 8210499465</h4>
+                <h4 className='text-center fw-semibold'>Email:- sanatangoderma@gmail.com</h4>
+                <h4 className='text-center fw-semibold'>Mob:- 7678184625, 8092236165</h4>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
                     {/* <Link to="/courses">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'></button>

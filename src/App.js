@@ -38,13 +38,13 @@ function App() {
             <Nav className='me-auto justify-content-end w-100'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
               {/* <Nav.Link href='/courses' className='text-uppercase'>Subject</Nav.Link> */}
-              <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
+              {/* <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
               <Nav.Link href='/manadetory' className='text-uppercase'>Mandatory Disclosure</Nav.Link>
               <Nav.Link href='/teachers' className='text-uppercase'>Teacher</Nav.Link>
               <Nav.Link href='/syallubus' className='text-uppercase'>Syallubus</Nav.Link>
               <Nav.Link href='/gallery' className='text-uppercase'>Gallery</Nav.Link>
               <Nav.Link href='/bus' className='text-uppercase'>Bus</Nav.Link>
-              <Nav.Link href='/contact' className='text-uppercase'>Contact</Nav.Link>
+              <Nav.Link href='/contact' className='text-uppercase'>Contact</Nav.Link> */}
               
             </Nav>
           </Navbar.Collapse>
@@ -125,13 +125,14 @@ function App() {
                 <div className='col-12 col-md-6 col-lg-7'>
                   <ul className='list-unstyled mb-0'>
                     <li>
-                      <p>SANATAN ROAD, JAMUARY, KANKE, RANCHI</p>
+                      <p>Sanata Vidya Niketan Godarma Rehla Palamu. 
+                      Pin Code- 822124</p>
                     </li>
                     <li>
-                      <p>Phone-9576035071, 8210499465</p>
+                      <p>Phone- 7678184625, 8092236165</p>
                     </li>
                     <li>
-                      <p>Email:-sanatanvidyan@gmail.com</p>
+                      <p>Email:-  sanatangoderma@gmail.com</p>
                     </li>
                   </ul>
                 </div>
