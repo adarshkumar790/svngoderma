@@ -8,18 +8,18 @@ import document1 from '../../utils/images/doc1.pdf';
 // import  Bathroom from '../../utils/images/Bathroom.jpeg';
 import  ClassRoom from '../../utils/images/Classroom.jpeg';
 import  Library from '../../utils/images/library.jpeg';
-import Staff from '../../utils/images/Staff.jpeg';
+import School from '../../utils/images/School.jpeg';
 import BoysBathroom from '../../utils/images/Boy.jpeg';
 // import  PlayGround from '../../utils/images/PlayGround.jpeg';
 import  Transport from '../../utils/images/Bus.jpeg';
-import GirlsBathroom from '../../utils/images/Girls.jpeg';
+import Washroom from '../../utils/images/Washroom.jpeg';
 // import  Water from '../../utils/images/Water.jpeg';
 // import Sport from '../../utils/images/Sport.jpeg';
 // import Canteen from '../../utils/images/Canteen.jpeg';
 import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
 // import ComputerLab from '../../utils/images/ComputerLab.jpeg'; 
 // import BiologyLab from '../../utils/images/BiologyLab.jpeg';
-import PlayGround from '../../utils/images/Play.jpeg';
+import PlayGround from '../../utils/images/playground.jpeg';
 import Water from '../../utils/images/Water.jpeg';
 import document2 from '../../utils/images/2.pdf';
 // import document3 from '../../utils/images/document3.pdf';
@@ -34,18 +34,8 @@ const school = [
           
           {
             id: 1,
-            img: [Staff],
-            title: 'Staff Room',
-          },
-          {
-            id: 2,
-            img: [ClassRoom],
-            title: 'Class Room',
-          },
-          {
-            id: 3,
-            img: [Water],
-            title: 'water',
+            img: [School],
+            title: 'School Field',
           },
           {
             id: 4,
@@ -54,49 +44,44 @@ const school = [
           },
           {
            id: 5,
-           img: [GirlsBathroom],
-           title: 'Girls Bathroom',
-          },
-          {
-            id:6,
-            img: [BoysBathroom],
-            title: 'Boys Bathroom',
+           img: [Washroom],
+           title: 'Washroom',
           },
           {
             id: 7,
             img: [PlayGround],
             title: 'Playground',
           },
-          {
-            id: 8,
-            // img: [Sport],
-            title: 'Sports',
-          },
-          {
-            id: 9,
-            img: [Transport],
-            title: 'Transport',
-          },
-          {
-            id: 10,
-            // img: [Canteen],
-            title: 'Canteen',
-          },
-          {
-            id: 11,
-            img: [ChemistryLab],
-            title: 'Chemistry & Physics Lab',
-          }, 
-          {
-            id: 12,
-            // img: [ComputerLab],
-            title: 'Computer Lab',
-          },
-          {
-            id: 13,
-            // img: [BiologyLab],
-            title: 'Biology Lab',
-          }
+          // {
+          //   id: 8,
+          //   // img: [Sport],
+          //   title: 'Sports',
+          // },
+          // {
+          //   id: 9,
+          //   img: [Transport],
+          //   title: 'Transport',
+          // },
+          // {
+          //   id: 10,
+          //   // img: [Canteen],
+          //   title: 'Canteen',
+          // },
+          // {
+          //   id: 11,
+          //   img: [ChemistryLab],
+          //   title: 'Chemistry & Physics Lab',
+          // }, 
+          // {
+          //   id: 12,
+          //   // img: [ComputerLab],
+          //   title: 'Computer Lab',
+          // },
+          // {
+          //   id: 13,
+          //   // img: [BiologyLab],
+          //   title: 'Biology Lab',
+          // }
      ]
 
 const information = [
