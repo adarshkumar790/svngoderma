@@ -21,13 +21,13 @@ import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
 // import BiologyLab from '../../utils/images/BiologyLab.jpeg';
 import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
-// import document2 from '../../utils/images/document2.pdf';
+import document2 from '../../utils/images/2.pdf';
 // import document3 from '../../utils/images/document3.pdf';
-// import document4 from '../../utils/images/document4.pdf';
-// import document5 from '../../utils/images/document5.pdf';
-// import document6 from '../../utils/images/document6.pdf';
+import document4 from '../../utils/images/4.pdf';
+import document5 from '../../utils/images/5.pdf';
+import document6 from '../../utils/images/6.pdf';
 // import document7 from '../../utils/images/document7.pdf';
-// import document8 from '../../utils/images/document8.pdf';
+import document8 from '../../utils/images/8.pdf';
 // import document9 from '../../utils/images/document9.pdf';
 
 const school = [
@@ -145,12 +145,12 @@ const documents = [
   {
     id: 1,
     name: 'COPIES OF AFFILIATION/UPGRADATION LETTER AND RECENT EXTENSION OF AFFILIATION',
-    url: document1,
+    // url: document1,
   },
   {
     id: 2,
     name: 'COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE',
-    // url: document2,
+    url: document2,
   },
   {
     id: 3,
@@ -160,17 +160,17 @@ const documents = [
   {
     id: 4,
     name: 'COPY OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2019, AND ITS RENEWAL',
-    // url: document4,
+    url: document4,
   },
   {
     id: 5,
     name: 'COPY OF VALID FIRE SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    // url: document5,
+    url: document5,
   },
   {
     id: 6,
     name: 'COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    // url: document6,
+    url: document6,
   },
   {
     id: 7,
@@ -180,7 +180,7 @@ const documents = [
   {
     id: 8,
     name: 'COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES',
-    // url: document8,
+    url: document8,
   },
   {
     id: 9,
