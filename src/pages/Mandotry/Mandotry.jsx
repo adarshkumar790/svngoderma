@@ -29,6 +29,9 @@ import document6 from '../../utils/images/6.pdf';
 // import document7 from '../../utils/images/document7.pdf';
 import document8 from '../../utils/images/8.pdf';
 // import document9 from '../../utils/images/document9.pdf';
+import result3 from '../../utils/images/SMCgodarma.pdf';
+import result1 from '../../utils/images/FEESTRUCTURE.pdf';
+import result2 from '../../utils/images/ACADEMIC CALANDER.pdf'
 
 const school = [
           
@@ -108,7 +111,7 @@ const information = [
     {
         id: 5,
         title: 'PRINCIPAL NAME & QUALIFICATION',
-        description: '',
+        description: 'Mithilesh Pandey & M.Sc (PHY), B.Ed',
     },
     {
         id: 6,
@@ -179,17 +182,17 @@ const results = [
     {
       id: 1,
       name: 'FEE STRUCTURE OF THE SCHOOL',
-    //   url: document1,
+      url: result1,
     },
     {
       id: 2,
       name: 'ANNUAL ACADEMIC CALANDER,',
-      // url: document2,
+      url: result2,
     },
     {
       id: 3,
       name: 'LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)',
-      // url: document3,
+      url: result3,
     },
     {
       id: 4,
@@ -258,27 +261,27 @@ const infrastructure = [
     {
       id: 2,
       title: 'NO. AND SIZE OF THE CLASS ROOMS (IN SQ MTR)',
-      description: '1',
+      description: '12',
     },
     {
       id: 3,
       title: 'NO. AND SIZE LABORATORIES INCLUDING COMPUTER LABS (IN SQ MTR)',
-      description: '',
+      description: '1 & 55.74',
     },
     {
         id: 4,
         title: 'INTERNET FACILITY (Y/N)',
-        description: '',
+        description: 'Yes',
     },
     {
         id: 5,
         title: 'NO. OF GIRLS TOILETS',
-        description: '',
+        description: '5',
     },
     {
         id: 6,
         title: 'NO. OF BOYS TOILETS',
-        description: '',
+        description: '5',
     },
     
 ]
