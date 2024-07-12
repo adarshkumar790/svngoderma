@@ -214,17 +214,17 @@ const results = [
     {
       id: 2,
       title: 'TOTAL NO. OF TEACHERS',
-      description: '13',
+      description: '20',
     },
     {
       id: 3,
       title: 'PGT',
-      description: '3',
+      description: '0',
     },
     {
         id: 4,
         title: 'TGT',
-        description: '5',
+        description: '10',
     },
     {
         id: 5,
@@ -234,7 +234,7 @@ const results = [
     {
         id: 6,
         title: 'TEACHERS SECTION RATIO',
-        description: '20:1',
+        description: '1.5:1',
     },
     {
         id: 7,
@@ -244,7 +244,7 @@ const results = [
     {
         id: 8,
         title: 'DETAILS OF COUNSELLOR AND WELNESS TEACHERS',
-        description: '2',
+        description: '1',
     }
 
 ]  
@@ -253,7 +253,7 @@ const infrastructure = [
     {
       id: 1,
       title: 'TOTAL CMAPUS AREA OF THE SCHOOL (IN SQUARE MRT)',
-      description: '1',
+      description: '9200',
     },
     {
       id: 2,
