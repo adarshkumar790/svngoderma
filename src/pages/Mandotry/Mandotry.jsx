@@ -31,7 +31,8 @@ import document8 from '../../utils/images/8.pdf';
 // import document9 from '../../utils/images/document9.pdf';
 import result3 from '../../utils/images/SMCgodarma.pdf';
 import result1 from '../../utils/images/FEESTRUCTURE.pdf';
-import result2 from '../../utils/images/ACADEMIC CALANDER.pdf'
+import result2 from '../../utils/images/ACADEMIC CALANDER.pdf';
+import result6 from '../../utils/images/GODARMASTAFING.pdf'
 
 const school = [
           
@@ -203,7 +204,13 @@ const results = [
       id: 5,
       name: 'LAST THREE-YEAR RESULT OF THE BORAD EXAMINATION AS PER APPLICABLILITY',
       // url: document5,
+    },
+    {
+      id: 6,
+      name : 'TEACHING STAFF',
+      url:result6
     }
+
     
   ];
 
