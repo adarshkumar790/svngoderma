@@ -241,18 +241,28 @@ const results = [
         title: 'PRT',
         description: '5',
     },
-    {
+     {
         id: 6,
+        title: 'NTT',
+        description: '3',
+    },
+    {
+      id:7,
+      title: 'PET',
+      description: '1',
+    },
+    {
+        id: 8,
         title: 'TEACHERS SECTION RATIO',
         description: '1.5:1',
     },
     {
-        id: 7,
+        id: 9,
         title: 'DETAILS OF SPECIAL EDUCATION',
         description: 'NA',
     },
     {
-        id: 8,
+        id: 10,
         title: 'DETAILS OF COUNSELLOR AND WELNESS TEACHERS',
         description: '1',
     }
