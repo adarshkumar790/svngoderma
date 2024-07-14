@@ -193,11 +193,11 @@ const TeacherTestimonials = () => {
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial-card">
             <div className="card-header">
-              <img
+              {/* <img
                 className="profile-image"
                 src={testimonial.image}
                 alt={testimonial.name}
-              />
+              /> */}
               <div>
                 <p className="name">{testimonial.name}</p>
                 <p className="position">{testimonial.position}</p>
