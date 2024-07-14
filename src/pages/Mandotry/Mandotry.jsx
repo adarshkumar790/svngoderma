@@ -283,7 +283,7 @@ const infrastructure = [
     {
       id: 3,
       title: 'NO. AND SIZE LABORATORIES INCLUDING COMPUTER LABS (IN SQ MTR)',
-      description: '1 & 55.74',
+      description: '3 + 1 & 55.74',
     },
     {
         id: 4,
@@ -293,12 +293,12 @@ const infrastructure = [
     {
         id: 5,
         title: 'NO. OF GIRLS TOILETS',
-        description: '5',
+        description: '10',
     },
     {
         id: 6,
         title: 'NO. OF BOYS TOILETS',
-        description: '5',
+        description: '10',
     },
     
 ]
