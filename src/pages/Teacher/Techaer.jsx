@@ -15,46 +15,46 @@ import Blog12Img from '../../utils/images/Principal.jpeg';
 
 const testimonials = [
   {
-    name: 'Dr. Dinesh Kr Singh',
+    name: 'MITHILESH PANDEY',
     position: 'Principal',
     image: [Blog12Img], 
-    testimonial: 'M.Sc (Chem), P.h.D',
+    testimonial: 'M. Sc (PHY) B.Ed.',
   },
   {
-    name: 'Pragya Awasthi',
+    name: 'Y. BROJEN SINGH',
     position: 'Vice-Principal',
     image: [Blog10Img], 
-    testimonial: 'M.A, NTT, CIC',
+    testimonial: 'B.Sc. (Math) B.Ed.',
   },
   {
-    name: 'Pratima Singh',
-    position: 'Senior Hindi Teacher',
+    name: 'RAIS ANSARI',
+    position: 'Math Teacher',
     image: [Blog1Img], 
-    testimonial: 'M.A, B.Ed',
+    testimonial: 'M.sc (Math) B. Ed + CTET',
   },
   {
-    name: 'Jyoti Rani',
-    position: 'Junior Maths Teacher',
+    name: 'SAVITA CHOUDHARY',
+    position: 'Hindi Teacher',
     image: [Blog2Img], 
-    testimonial: 'B.Ed, M.Com',
+    testimonial: 'M.A. (Hindi) B.Ed.+ M.Ed. JTET.',
   },
   {
-    name: 'Prabin Kumar Jha',
-    position: 'Senior English Teacher',
-    image: [Blog3Img], // Make sure to place your image in the public directory
-    testimonial: 'B.A, D.El.Ed',
+    name: 'PRIYANKA CHOUBEY',
+    position: 'Science (BIO)',
+    image: [Blog3Img], 
+    testimonial: 'M. Sc (Botany) B.Ed',
   },
   {
-    name: 'Saraswati Oraon',
-    position: 'Maths Teacher',
+    name: 'ARCHANA KUMARI MISHRA',
+    position: 'Hindi Teacher',
     image: [Blog4Img], // Make sure to place your image in the public directory
-    testimonial: 'B.SC, NTT',
+    testimonial: 'B.A (Pol Science) B.ed',
   },
   {
-    name: 'Priti Devi',
-    position: 'G.K & E.V.S',
+    name: 'AJIT KUMAR UPADHYAY',
+    position: 'Computer Teacher',
     image: [Blog5Img], // Make sure to place your image in the public directory
-    testimonial: 'I.Com, D.El.Ed',
+    testimonial: 'MCA',
   },
   {
     name: 'Neha Kerketta',
@@ -63,29 +63,120 @@ const testimonials = [
     testimonial: 'M.A ()',
   },
   {
-    name: 'Sweta Tirkey',
-    position: 'Junior Hindi Teacher',
+    name: 'SATYAVATI TIWARI',
+    position: 'Sanskrit',
     image: [Blog7Img], // Make sure to place your image in the public directory
-    testimonial: 'M.A, B.Ed',
+    testimonial: 'M.A B.Ed (SANSKRIT)',
   },
   {
-    name: 'Santosh Dubey',
-    position: 'Computer Teacher',
+    name: 'BIBHA CHAUDHARI',
+    position: 'S.ST Teacher',
     image: [Blog8Img], // Make sure to place your image in the public directory
-    testimonial: 'MCA',
+    testimonial: 'B.A. (Soc) B. Ed',
   },
   {
-    name: 'Anjali Kumari',
-    position: 'Senior Maths Teacher ',
+    name: 'ARTI KUMARI ',
+    position: 'Maths Teacher ',
     image: [Blog9Img], // Make sure to place your image in the public directory
-    testimonial: 'B.SC(Maths)',
+    testimonial: 'M. Sc (Math) M. Ed + CTET',
   },
   {
-    name: 'Ritesh Sahu',
-    position: 'Senior Science Teacher ',
+    name: 'MOHAMMAD SAMSHIR ALAM',
+    position: 'English Teacher',
     image: [Blog11Img], // Make sure to place your image in the public directory
-    testimonial: 'B.Tech',
+    testimonial: 'B.A. (English) B.ed ',
   },
+  {
+    name: 'DEEPAK KUMAR PANDEY',
+    position: 'English Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'M.A. (English) B.Ed',
+  },
+  {
+    name: 'MOHAMMAD SAMSHIR ALAM',
+    position: 'English Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B.A. (English) B.ed ',
+  },
+  {
+    name: 'ANITA GUPTA',
+    position: 'S.ST Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'M.A (Psychology) D.El..ED',
+  },
+  {
+    name: 'JYOTSNA PANDEY',
+    position: 'Hindi Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B.A (History) B.Ed',
+  },
+  {
+    name: 'ANJALI KUMARI',
+    position: 'English Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'M.A (ENGLISH) B.Ed',
+  },
+  {
+    name: 'JYOTSNA PANDEY',
+    position: 'Hindi Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B.A (History) B.Ed',
+  },
+  {
+    name: 'ANJALI KUMARI ',
+    position: 'English Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'M.A (ENGLISH) B.Ed',
+  },
+  {
+    name: 'VINEETA DUBEY',
+    position: 'S.ST Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'M.A (Psychology D.El.Ed.',
+  },
+  {
+    name: 'KAJAL KUMARI ',
+    position: 'Math Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B.Sc (Math) B.Ed',
+  },
+  {
+    name: 'JUHI KUMARI',
+    position: 'Math Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B. Sc (Zoology) B.Ed',
+  },
+  {
+    name: 'KAJAL CHOUBEY',
+    position: 'Science Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B. Sc (Math) B.Ed',
+  },
+  {
+    name: 'PRIYA KUMARI ',
+    position: 'Science Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B.Sc. (Zoology) B.Ed. + CTET',
+  },
+  {
+    name: 'ARCHANA KUMARI',
+    position: 'Hindi Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'B.A. (History) D.El.Ed.',
+  },
+  {
+    name: 'Reshma Ma’am',
+    position: 'Physical Education Teacher',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'M.A (Psychology D.El.Ed.',
+  },
+  {
+    name: 'RUPESH TIWARI',
+    position: 'Librarian',
+    image: [Blog11Img], // Make sure to place your image in the public directory
+    testimonial: 'BLIS',
+  },
+
 ];
 
 const TeacherTestimonials = () => {
