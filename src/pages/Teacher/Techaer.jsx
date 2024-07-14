@@ -57,12 +57,6 @@ const testimonials = [
     testimonial: 'MCA',
   },
   {
-    name: 'Neha Kerketta',
-    position: 'Junior Teacher',
-    image: [Blog6Img], // Make sure to place your image in the public directory
-    testimonial: 'M.A ()',
-  },
-  {
     name: 'SATYAVATI TIWARI',
     position: 'Sanskrit',
     image: [Blog7Img], // Make sure to place your image in the public directory
@@ -91,12 +85,6 @@ const testimonials = [
     position: 'English Teacher',
     image: [Blog11Img], // Make sure to place your image in the public directory
     testimonial: 'M.A. (English) B.Ed',
-  },
-  {
-    name: 'MOHAMMAD SAMSHIR ALAM',
-    position: 'English Teacher',
-    image: [Blog11Img], // Make sure to place your image in the public directory
-    testimonial: 'B.A. (English) B.ed ',
   },
   {
     name: 'ANITA GUPTA',
