@@ -28,7 +28,7 @@ import document5 from '../../utils/images/buildinggoderma.pdf';
 import document6 from '../../utils/images/firesafety.pdf';
 // import document7 from '../../utils/images/document7.pdf';
 import document8 from '../../utils/images/8.pdf';
-// import document9 from '../../utils/images/document9.pdf';
+import document9 from '../../utils/images/Land.pdf';
 import result3 from '../../utils/images/SMCgodarma.pdf';
 import result1 from '../../utils/images/FEESTRUCTURE.pdf';
 import result2 from '../../utils/images/ACADEMIC CALANDER.pdf';
@@ -36,23 +36,23 @@ import result6 from '../../utils/images/GODARMASTAFING.pdf'
 
 const school = [
           
+          // {
+          //   id: 1,
+          //   img: [School],
+          //   title: 'School Field',
+          // },
           {
             id: 1,
-            img: [School],
-            title: 'School Field',
-          },
-          {
-            id: 4,
             img: [Library],
             title: 'Library',
           },
           {
-           id: 5,
+           id: 2,
            img: [Washroom],
            title: 'Washroom',
           },
           {
-            id: 7,
+            id: 3,
             img: [PlayGround],
             title: 'Playground',
           },
@@ -174,7 +174,7 @@ const documents = [
   {
     id: 9,
     name: 'COPY OF LAND CERTIFICATE',
-    // url: document9,
+    url: document9,
   },
 ];
 
@@ -278,7 +278,7 @@ const infrastructure = [
     {
       id: 2,
       title: 'NO. AND SIZE OF THE CLASS ROOMS (IN SQ MTR)',
-      description: '12',
+      description: 'Total Class Room 12.  Each 46.45152 square meter',
     },
     {
       id: 3,
