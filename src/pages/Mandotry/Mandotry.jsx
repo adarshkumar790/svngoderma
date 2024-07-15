@@ -108,7 +108,7 @@ const information = [
     {
         id: 4,
         title: 'COMPLETE ADDRESS WITH PIN CODE',
-        description: 'Sanata Vidya Niketan Godarma, Rehla, Palamu, Pin Code- 822124',
+        description: 'Sanata Vidya Niketan, Godarma, Rehla, Palamu, Jharkhand, Pin Code- 822124',
     },
     {
         id: 5,
