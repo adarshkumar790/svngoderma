@@ -201,13 +201,13 @@ const results = [
       name: 'LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS',
       url: documentPTA,
     },
+    // {
+    //   id: 5,
+    //   name: 'LAST THREE-YEAR RESULT OF THE BORAD EXAMINATION AS PER APPLICABLILITY',
+    //   // url: document5,
+    // },
     {
       id: 5,
-      name: 'LAST THREE-YEAR RESULT OF THE BORAD EXAMINATION AS PER APPLICABLILITY',
-      // url: document5,
-    },
-    {
-      id: 6,
       name : 'TEACHING STAFF',
       url:result6
     }
@@ -259,8 +259,8 @@ const results = [
     },
     {
         id: 9,
-        title: 'DETAILS OF SPECIAL EDUCATION',
-        description: 'NA',
+        title: 'DETAILS OF SPECIAL EDUCATOR',
+        description: '1',
     },
     {
         id: 10,
