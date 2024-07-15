@@ -31,8 +31,8 @@ import document7 from '../../utils/images/SelfCertificateJ.pdf';
 import document8 from '../../utils/images/8.pdf';
 import document9 from '../../utils/images/Land.pdf';
 import result3 from '../../utils/images/SMCgodarma.pdf';
-import result1 from '../../utils/images/FEESTRUCTURE.pdf';
-import result2 from '../../utils/images/ACADEMIC CALANDER.pdf';
+import result1 from '../../utils/images/FEE STRUCTUREJ.pdf';
+import result2 from '../../utils/images/ACADEMIC CALANDERJ.pdf';
 import result6 from '../../utils/images/GODARMASTAFING.pdf'
 
 const school = [
