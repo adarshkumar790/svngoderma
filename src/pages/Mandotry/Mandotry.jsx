@@ -23,7 +23,7 @@ import PlayGround from '../../utils/images/playground.jpeg';
 import Water from '../../utils/images/Water.jpeg';
 import document2 from '../../utils/images/2.pdf';
 import documentPTA from '../../utils/images/PTAJamuary.pdf'
-// import document3 from '../../utils/images/document3.pdf';
+import document3 from '../../utils/images/NOCPALAMU.pdf';
 import document4 from '../../utils/images/RECO.pdf';
 import document5 from '../../utils/images/BuildingSafety.pdf';
 import document6 from '../../utils/images/firesafety.pdf';
@@ -126,7 +126,7 @@ const information = [
     //     description: '',
     // },
     {
-        id: 8,
+        id: 7,
         title: 'CONTACT DETAILS (LANDLINE/MOBILE)',
         description: '6584-299979, 7678184625, 8092236165',
     },
@@ -145,7 +145,7 @@ const documents = [
   {
     id: 3,
     name: 'COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT',
-    // url: document3,
+    url: document3,
   },
   {
     id: 4,
