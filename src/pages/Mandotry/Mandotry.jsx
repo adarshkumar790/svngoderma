@@ -23,7 +23,7 @@ import PlayGround from '../../utils/images/playground.jpeg';
 import Water from '../../utils/images/Water.jpeg';
 import document2 from '../../utils/images/2.pdf';
 import documentPTA from '../../utils/images/PTAJamuary.pdf'
-import document3 from '../../utils/images/NOCPALAMU.pdf';
+import document3 from '../../utils/images/NOCGodarma.pdf';
 import document4 from '../../utils/images/RECO.pdf';
 import document5 from '../../utils/images/BuildingSafety.pdf';
 import document6 from '../../utils/images/firesafety.pdf';
