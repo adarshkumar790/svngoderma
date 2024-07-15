@@ -128,7 +128,7 @@ const information = [
     {
         id: 8,
         title: 'CONTACT DETAILS (LANDLINE/MOBILE)',
-        description: '7678184625, 8092236165',
+        description: '6584-299979, 7678184625, 8092236165',
     },
 ]
 const documents = [
@@ -155,12 +155,12 @@ const documents = [
   {
     id: 5,
     name: 'COPY OF VALID FIRE SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    url: document5,
+    url: document6,
   },
   {
     id: 6,
     name: 'COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    url: document6,
+    url: document5,
   },
   {
     id: 7,
