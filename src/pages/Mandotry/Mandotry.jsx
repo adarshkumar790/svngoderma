@@ -120,11 +120,11 @@ const information = [
         title: 'SCHOOL EMAIL ID',
         description: 'sanatangoderma@gmail.com',
     },
-    {
-        id: 7,
-        title: 'DETAILS OF SPECIAL EDUCATION',
-        description: '',
-    },
+    // {
+    //     id: 7,
+    //     title: 'DETAILS OF SPECIAL EDUCATION',
+    //     description: '',
+    // },
     {
         id: 8,
         title: 'CONTACT DETAILS (LANDLINE/MOBILE)',
