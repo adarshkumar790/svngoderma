@@ -25,7 +25,7 @@ import document2 from '../../utils/images/2.pdf';
 import documentPTA from '../../utils/images/PTAJamuary.pdf'
 // import document3 from '../../utils/images/document3.pdf';
 import document4 from '../../utils/images/4.pdf';
-import document5 from '../../utils/images/buildinggoderma.pdf';
+import document5 from '../../utils/images/BuildingSafety.pdf';
 import document6 from '../../utils/images/firesafety.pdf';
 import document7 from '../../utils/images/SelfCertificateJ.pdf';
 import document8 from '../../utils/images/8.pdf';
