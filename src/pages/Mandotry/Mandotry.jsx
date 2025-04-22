@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import AboutUsSectionImg from '../../utils/images/Sanatan.jpeg';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
-import document1 from '../../utils/images/doc1.pdf';
+import document1 from '../../utils/images/fee structure.pdf';
 // import  Bathroom from '../../utils/images/Bathroom.jpeg';
 import  ClassRoom from '../../utils/images/Classroom.jpeg';
 import  Library from '../../utils/images/library.jpeg';
@@ -21,14 +21,15 @@ import ChemistryLab from '../../utils/images/Chemistry.jpg'; //
 // import BiologyLab from '../../utils/images/BiologyLab.jpeg';
 import PlayGround from '../../utils/images/Play.jpeg';
 import Water from '../../utils/images/Water.jpeg';
-// import document2 from '../../utils/images/document2.pdf';
-// import document3 from '../../utils/images/document3.pdf';
+import document2 from '../../utils/images/academic calender.pdf';
+import document3 from '../../utils/images/smc.pdf';
 // import document4 from '../../utils/images/document4.pdf';
-// import document5 from '../../utils/images/document5.pdf';
-// import document6 from '../../utils/images/document6.pdf';
+import document5 from '../../utils/images/fire safety.pdf';
+import document6 from '../../utils/images/building.pdf';
 // import document7 from '../../utils/images/document7.pdf';
-// import document8 from '../../utils/images/document8.pdf';
-// import document9 from '../../utils/images/document9.pdf';
+import document8 from '../../utils/images/water.pdf';
+// import document9 from '../../utils/images/land.pdf';
+import noc from '../../utils/images/noc.pdf';
 
 const school = [
           
@@ -155,7 +156,7 @@ const documents = [
   {
     id: 3,
     name: 'COPY OF NO OBJECTION CERTIFICATE (NOC) ISSUED, IF APPLICABLE, BY THE STATE GOVT./UT',
-    // url: document3,
+    url: noc,
   },
   {
     id: 4,
@@ -165,12 +166,12 @@ const documents = [
   {
     id: 5,
     name: 'COPY OF VALID FIRE SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    // url: document5,
+    url: document5,
   },
   {
     id: 6,
     name: 'COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE',
-    // url: document6,
+    url: document6,
   },
   {
     id: 7,
@@ -180,7 +181,7 @@ const documents = [
   {
     id: 8,
     name: 'COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES',
-    // url: document8,
+    url: document8,
   },
   {
     id: 9,
@@ -194,17 +195,17 @@ const results = [
     {
       id: 1,
       name: 'FEE STRUCTURE OF THE SCHOOL',
-    //   url: document1,
+      url: document1,
     },
     {
       id: 2,
       name: 'ANNUAL ACADEMIC CALANDER,',
-      // url: document2,
+      url: document2,
     },
     {
       id: 3,
       name: 'LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)',
-      // url: document3,
+      url: document3,
     },
     {
       id: 4,
@@ -212,7 +213,7 @@ const results = [
       // url: document4,
     },
     {
-      id: 5,
+      id: 4,
       name: 'LAST THREE-YEAR RESULT OF THE BORAD EXAMINATION AS PER APPLICABLILITY',
       // url: document5,
     }
