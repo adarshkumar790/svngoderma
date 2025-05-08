@@ -30,6 +30,7 @@ import document6 from '../../utils/images/building.pdf';
 import document8 from '../../utils/images/water.pdf';
 // import document9 from '../../utils/images/land.pdf';
 import noc from '../../utils/images/noc.pdf';
+import staff from '../../utils/images/teachers.jpeg';
 
 const school = [
           
@@ -210,13 +211,15 @@ const results = [
     {
       id: 4,
       name: 'LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS',
-      // url: document4,
+       url: staff
     },
     {
       id: 4,
       name: 'LAST THREE-YEAR RESULT OF THE BORAD EXAMINATION AS PER APPLICABLILITY',
       // url: document5,
-    }
+    },
+    
+
     
   ];
 
