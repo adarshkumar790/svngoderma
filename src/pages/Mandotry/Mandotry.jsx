@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+
 import './Mandotry.css';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -305,6 +307,30 @@ const infrastructure = [
   
 
 const Mandotry = () => {
+const [documentsData, setDocumentsData] = useState([]);
+const [resultsData, setResultsData] = useState([]);
+
+      useEffect(() => {
+  const fetchFiles = async () => {
+    try {
+      const response = await axios.get('https://server-svngoderma.onrender.com/api/upload');
+      const allFiles = response.data;
+
+      // Separate files by category
+      const documents = allFiles.filter(file => file.category === 'b');
+      const results = allFiles.filter(file => file.category === 'c');
+
+      setDocumentsData(documents);
+      setResultsData(results);
+    } catch (error) {
+      console.error('Failed to fetch documents/results:', error);
+    }
+  };
+
+  fetchFiles();
+             }, []);
+
+
   const handleDownload = (url) => {
     if (url) {
       window.location.href = url;
@@ -359,22 +385,22 @@ const Mandotry = () => {
             </tr>
           </thead>
           <tbody>
-            {documents.map((doc) => (
-              <tr key={doc.id}>
-                <td>{doc.id}</td>
-                <td>{doc.name}</td>
-                <td>
-                  {doc.url ? (
-                    <button onClick={() => handleDownload(doc.url)} className='btn btn-primary'>
-                      Download
-                    </button>
-                  ) : (
-                    <span className='text-muted'>Not available</span>
-                  )}
-                </td>
-              </tr>
-            ))}
-          </tbody>
+  {documentsData.map((doc, index) => {
+    const fileUrl = `https://server-svngoderma.onrender.com/uploads/${encodeURIComponent(doc.filePath)}`;
+    return (
+      <tr key={doc._id}>
+        <td>{index + 1}</td>
+        <td>{doc.title}</td>
+        <td>
+          <button onClick={() => handleDownload(fileUrl)} className="btn btn-primary">
+            Download
+          </button>
+        </td>
+      </tr>
+    );
+  })}
+</tbody>
+
         </table>
       </div>
 
@@ -389,22 +415,22 @@ const Mandotry = () => {
             </tr>
           </thead>
           <tbody>
-            {results.map((doc) => (
-              <tr key={doc.id}>
-                <td>{doc.id}</td>
-                <td>{doc.name}</td>
-                <td>
-                  {doc.url ? (
-                    <button onClick={() => handleDownload(doc.url)} className='btn btn-primary'>
-                      Download
-                    </button>
-                  ) : (
-                    <span className='text-muted'>Not available</span>
-                  )}
-                </td>
-              </tr>
-            ))}
-          </tbody>
+  {resultsData.map((doc, index) => {
+    const fileUrl = `https://server-svngoderma.onrender.com/uploads/${encodeURIComponent(doc.filePath)}`;
+    return (
+      <tr key={doc._id}>
+        <td>{index + 1}</td>
+        <td>{doc.title}</td>
+        <td>
+          <button onClick={() => handleDownload(fileUrl)} className="btn btn-primary">
+            Download
+          </button>
+        </td>
+      </tr>
+    );
+  })}
+</tbody>
+
         </table>
       </div>
       <div className='container my-5'>
